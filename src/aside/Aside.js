@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Aside.css'
 import userImage from '../userImage.png';
 import TextField from '@material-ui/core/TextField';
-import PrivateMessageBoxx from '../PrivateMessageBox/PrivateMessageBox'
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -98,11 +97,6 @@ const Aside = (props) => {
                                     </div>
                                 </li>
                         )} </List></ul>
-
-                {openPrivateBox ?
-                    <PrivateMessageBoxx open={openPrivateBox} handleClose={handleClosePrivateBox}
-                        notifications={roomNotification} youser={yousername} otherUser={otherUser} />
-                    : ""}
 
             </aside>
         )
