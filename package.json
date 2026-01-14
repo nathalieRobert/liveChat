@@ -9,7 +9,7 @@
     "react-bell-icon": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-error-boundary": "^2.2.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-stomp": "^4.2.0",
     "sockjs-client": "^1.1.5"
   },
